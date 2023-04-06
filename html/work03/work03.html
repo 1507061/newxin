@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+           
+        ul{
+            width: 163px;
+            height: 461px;
+            overflow: hidden;
+            display: flex;
+            list-style: none;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+           
+        ul li{
+             animation: mt 1000ms step-end infinite; 
+        }
+        @keyframes mt{
+            0%{
+                transform: translateX(0px);
+            }
+            33%{
+                transform: translateX(-163px);
+            }
+            66%{
+                transform: translateX(-326px);
+            }
+            100%{
+                transform: translateX(0px);
+
+            }
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><img src="../imges/mt01.png" alt=""></li>
+        <li><img src="../imges/mt02.png" alt=""></li>
+        <li><img src="../imges/mt03.png" alt=""></li>
+    </ul>
+</body>
+</html>
